@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Almacenamiento en hoja de cálculo</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}storage.php {dirpath} {dbpath} es</params>
+  <enabled>False</enabled>
+  <freq>60</freq>
+  <freqexec>True</freqexec>
+  <summary>Extensión para almacenar los registros de tiempo en una base de datos.</summary>
+</config>

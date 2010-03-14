@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Integración conSlimtimer</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}storage.php {dirpath} {dbpath} es</params>
+  <enabled>False</enabled>
+  <freq>300</freq>
+  <freqexec>True</freqexec>   
+  <summary>Extensión para guardar en slimtimer los registros de tiempo. Por favor, añada sus datos de conexión en el archivo config.php en el directorio (openTempus_directorio_instalación/storage/slimtimer/config.php</summary>
+</config>

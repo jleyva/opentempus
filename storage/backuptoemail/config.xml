@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Backup to email</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}storage.php {dirpath} {dbpath} en</params>
+  <enabled>False</enabled>
+  <freq>3600</freq>
+  <freqexec>True</freqexec>   
+  <summary>Plugin for sending by email a database backup. Please add the connection data to the config.php file in the plugin dir (openTempus_instalation_dir/storage/backuptoemail/config.php)</summary>
+</config>

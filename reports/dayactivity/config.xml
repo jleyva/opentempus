@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+ <name>Day Activity</name>
+ <author>juan-leyva</author>
+ <version>1.0</version>
+ <bin>php</bin>
+ <params>{dirpath}report.php en {dirpath} {dbpath} {reporthtmldir} {starttime} {endtime}</params>
+ <output>dayactivity/index.html</output>
+ <summary>This report shows everything you have done during the day.</summary>
+</config>

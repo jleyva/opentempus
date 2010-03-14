@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <name>Tiempo por ventana</name>
+ <author>juan-leyva</author>
+ <version>1.0</version>
+ <bin>php</bin>
+ <params>{dirpath}report.php es {dirpath} {dbpath} {reporthtmldir} {starttime} {endtime}</params>
+ <output>timebywindow/index.html</output>
+ <summary>Este informe muestra el tiempo que has empleado en una ventana durante el periodo de tiempo seleccionado.</summary>
+</config>

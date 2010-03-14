@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Importar tareas de Slimtimer</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}import.php {dirpath} {dbpath} es</params>
+  <enabled>False</enabled>
+  <freq>0</freq>
+  <freqexec>false</freqexec>  
+  <summary>Extensión para importar tareas creadas en Slimtimer. Por favor, añada sus datos de conexión en el archivo config.php en el directorio (openTempus_directorio_instalación/storage/importslimtimer/config.php</summary>
+</config>

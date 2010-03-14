@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="6"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <Title Value="opentempus"/>
+      <ActiveEditorIndexAtStart Value="3"/>
+    </General>
+    <VersionInfo>
+      <ProjectVersion Value=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="53">
+      <Unit0>
+        <Filename Value="project.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project"/>
+        <CursorPos X="48" Y="12"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="5"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="opentempus.pas"/>
+        <ComponentName Value="Main"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="opentempus.lrs"/>
+        <UnitName Value="opentempus"/>
+        <CursorPos X="143" Y="1459"/>
+        <TopLine Value="1431"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="200"/>
+        <Bookmarks Count="3">
+          <Item0 X="9" Y="1369" ID="0"/>
+          <Item1 X="93" Y="1378" ID="1"/>
+          <Item2 X="25" Y="737" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="utils.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utils"/>
+        <CursorPos X="27" Y="26"/>
+        <TopLine Value="7"/>
+        <EditorIndex Value="10"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="apiplatforms.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="apiplatforms"/>
+        <CursorPos X="43" Y="557"/>
+        <TopLine Value="147"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="configuration.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="configuration"/>
+        <CursorPos X="20" Y="69"/>
+        <TopLine Value="106"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="201"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\lazarus\lcl\include\application.inc"/>
+        <CursorPos X="1" Y="1749"/>
+        <TopLine Value="1736"/>
+        <UsageCount Value="2"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="slimtimer.pas"/>
+        <UnitName Value="slimtimer"/>
+        <CursorPos X="1" Y="47"/>
+        <TopLine Value="254"/>
+        <UsageCount Value="203"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="httpsend.pas"/>
+        <UnitName Value="httpsend"/>
+        <CursorPos X="28" Y="63"/>
+        <TopLine Value="46"/>
+        <UsageCount Value="2"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="blcksock.pas"/>
+        <UnitName Value="blcksock"/>
+        <CursorPos X="33" Y="335"/>
+        <TopLine Value="323"/>
+        <UsageCount Value="29"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="synafpc.pas"/>
+        <UnitName Value="synafpc"/>
+        <CursorPos X="16" Y="69"/>
+        <TopLine Value="87"/>
+        <UsageCount Value="29"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="synsock.pas"/>
+        <UnitName Value="synsock"/>
+        <CursorPos X="17" Y="65"/>
+        <TopLine Value="31"/>
+        <UsageCount Value="2"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="synacode.pas"/>
+        <UnitName Value="synacode"/>
+        <CursorPos X="52" Y="22"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="2"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="synautil.pas"/>
+        <UnitName Value="synautil"/>
+        <CursorPos X="27" Y="1676"/>
+        <TopLine Value="1672"/>
+        <UsageCount Value="8"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="otlog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="otlog"/>
+        <CursorPos X="48" Y="6"/>
+        <TopLine Value="7"/>
+        <EditorIndex Value="4"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\Software\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <CursorPos X="3" Y="1340"/>
+        <TopLine Value="1319"/>
+        <UsageCount Value="2"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\..\..\lazarus\lcl\lclclasses.pp"/>
+        <UnitName Value="LCLClasses"/>
+        <CursorPos X="1" Y="116"/>
+        <TopLine Value="101"/>
+        <UsageCount Value="17"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\lazarus\lcl\lcltype.pp"/>
+        <UnitName Value="LCLType"/>
+        <CursorPos X="34" Y="2877"/>
+        <TopLine Value="2851"/>
+        <UsageCount Value="2"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\lazarus\lcl\avglvltree.pas"/>
+        <UnitName Value="AvgLvlTree"/>
+        <CursorPos X="37" Y="1631"/>
+        <TopLine Value="1606"/>
+        <UsageCount Value="2"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\lazarus\lcl\widgetset\wslclclasses.pp"/>
+        <UnitName Value="WSLCLClasses"/>
+        <CursorPos X="1" Y="137"/>
+        <TopLine Value="122"/>
+        <UsageCount Value="17"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\lazarus\lcl\include\customform.inc"/>
+        <CursorPos X="1" Y="1428"/>
+        <TopLine Value="1415"/>
+        <UsageCount Value="2"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\lazarus\lcl\include\scrollingwincontrol.inc"/>
+        <CursorPos X="1" Y="237"/>
+        <TopLine Value="224"/>
+        <UsageCount Value="2"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\lazarus\lcl\include\customcontrol.inc"/>
+        <CursorPos X="1" Y="30"/>
+        <TopLine Value="17"/>
+        <UsageCount Value="2"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\lazarus\lcl\include\wincontrol.inc"/>
+        <CursorPos X="1" Y="4750"/>
+        <TopLine Value="4735"/>
+        <UsageCount Value="33"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\..\lazarus\lcl\include\control.inc"/>
+        <CursorPos X="1" Y="1584"/>
+        <TopLine Value="1569"/>
+        <UsageCount Value="33"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\lazarus\lcl\include\sizeconstraints.inc"/>
+        <CursorPos X="1" Y="40"/>
+        <TopLine Value="27"/>
+        <UsageCount Value="2"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\lazarus\lcl\include\lclintf.inc"/>
+        <CursorPos X="1" Y="395"/>
+        <TopLine Value="380"/>
+        <UsageCount Value="17"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\..\lazarus\lcl\interfaces\win32\win32lclintf.inc"/>
+        <CursorPos X="1" Y="466"/>
+        <TopLine Value="453"/>
+        <UsageCount Value="2"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="..\..\..\lazarus\lcl\include\customtrayicon.inc"/>
+        <CursorPos X="1" Y="126"/>
+        <TopLine Value="113"/>
+        <UsageCount Value="2"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="..\..\..\lazarus\lcl\interfaces\win32\win32trayicon.inc"/>
+        <CursorPos X="1" Y="233"/>
+        <TopLine Value="220"/>
+        <UsageCount Value="2"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="..\..\..\lazarus\lcl\include\winapi.inc"/>
+        <CursorPos X="1" Y="427"/>
+        <TopLine Value="414"/>
+        <UsageCount Value="2"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="..\..\..\lazarus\lcl\interfaces\win32\win32winapi.inc"/>
+        <CursorPos X="1" Y="1891"/>
+        <TopLine Value="1878"/>
+        <UsageCount Value="2"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="..\..\..\lazarus\lcl\stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <CursorPos X="3" Y="1172"/>
+        <TopLine Value="1156"/>
+        <UsageCount Value="5"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="icons\spreadsheet.pas"/>
+        <UnitName Value="spreadsheet"/>
+        <CursorPos X="19" Y="7"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="2"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="spreadsheet.pas"/>
+        <UnitName Value="spreadsheet"/>
+        <CursorPos X="34" Y="133"/>
+        <TopLine Value="134"/>
+        <UsageCount Value="168"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\..\lazarus\fpc\2.2.2\source\rtl\objpas\classes\classesh.inc"/>
+        <CursorPos X="3" Y="1355"/>
+        <TopLine Value="1341"/>
+        <UsageCount Value="2"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="..\..\..\lazarus\fpc\2.2.2\source\rtl\objpas\dateutil.inc"/>
+        <CursorPos X="25" Y="1532"/>
+        <TopLine Value="1533"/>
+        <UsageCount Value="9"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="googledocs.pas"/>
+        <UnitName Value="googledocs"/>
+        <CursorPos X="60" Y="295"/>
+        <TopLine Value="291"/>
+        <UsageCount Value="151"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="..\..\..\lazarus\lcl\comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <CursorPos X="14" Y="2050"/>
+        <TopLine Value="2071"/>
+        <UsageCount Value="9"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="rules.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="rules"/>
+        <CursorPos X="54" Y="4"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="7"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\..\lazarus\lcl\customtimer.pas"/>
+        <UnitName Value="CustomTimer"/>
+        <CursorPos X="1" Y="158"/>
+        <TopLine Value="140"/>
+        <UsageCount Value="63"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="..\..\..\lazarus\lcl\interfaces\win32\win32callback.inc"/>
+        <CursorPos X="38" Y="2557"/>
+        <TopLine Value="2544"/>
+        <UsageCount Value="60"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="report.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="report"/>
+        <CursorPos X="1" Y="77"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="196"/>
+        <Loaded Value="True"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="..\..\..\lazarus\lcl\include\buttoncontrol.inc"/>
+        <CursorPos X="1" Y="58"/>
+        <TopLine Value="43"/>
+        <UsageCount Value="33"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="..\..\..\lazarus\lcl\include\buttons.inc"/>
+        <CursorPos X="1" Y="229"/>
+        <TopLine Value="214"/>
+        <UsageCount Value="33"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="..\..\..\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <CursorPos X="1" Y="109"/>
+        <TopLine Value="94"/>
+        <UsageCount Value="33"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\..\lazarus\lcl\include\messagedialogs.inc"/>
+        <CursorPos X="1" Y="230"/>
+        <TopLine Value="215"/>
+        <UsageCount Value="17"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\..\lazarus\lcl\include\intfbaselcl.inc"/>
+        <CursorPos X="1" Y="601"/>
+        <TopLine Value="586"/>
+        <UsageCount Value="17"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\..\lazarus\lcl\include\promptdialog.inc"/>
+        <CursorPos X="7" Y="537"/>
+        <TopLine Value="521"/>
+        <UsageCount Value="17"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\..\..\lazarus\lcl\lresources.pp"/>
+        <UnitName Value="LResources"/>
+        <CursorPos X="84" Y="2875"/>
+        <TopLine Value="2847"/>
+        <UsageCount Value="28"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="storage.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="storage"/>
+        <CursorPos X="71" Y="107"/>
+        <TopLine Value="90"/>
+        <EditorIndex Value="8"/>
+        <UsageCount Value="97"/>
+        <Loaded Value="True"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="threadprocess.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="threadprocess"/>
+        <CursorPos X="6" Y="84"/>
+        <TopLine Value="51"/>
+        <EditorIndex Value="9"/>
+        <UsageCount Value="94"/>
+        <Loaded Value="True"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="custom.pas"/>
+        <ComponentName Value="Custom"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <ResourceFilename Value="custom.lrs"/>
+        <UnitName Value="Custom"/>
+        <CursorPos X="1" Y="66"/>
+        <TopLine Value="61"/>
+        <EditorIndex Value="2"/>
+        <UsageCount Value="75"/>
+        <Loaded Value="True"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="opentempus.rst"/>
+        <CursorPos X="16" Y="4"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="9"/>
+        <SyntaxHighlighter Value="None"/>
+      </Unit52>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="647" Column="44" TopLine="628"/>
+      </Position1>
+      <Position2>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="659" Column="14" TopLine="640"/>
+      </Position2>
+      <Position3>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="661" Column="36" TopLine="642"/>
+      </Position3>
+      <Position4>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="663" Column="16" TopLine="644"/>
+      </Position4>
+      <Position5>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="664" Column="19" TopLine="645"/>
+      </Position5>
+      <Position6>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="691" Column="14" TopLine="672"/>
+      </Position6>
+      <Position7>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="693" Column="34" TopLine="674"/>
+      </Position7>
+      <Position8>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="695" Column="16" TopLine="676"/>
+      </Position8>
+      <Position9>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="696" Column="19" TopLine="677"/>
+      </Position9>
+      <Position10>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="719" Column="22" TopLine="700"/>
+      </Position10>
+      <Position11>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="802" Column="14" TopLine="783"/>
+      </Position11>
+      <Position12>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="810" Column="22" TopLine="797"/>
+      </Position12>
+      <Position13>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="811" Column="25" TopLine="792"/>
+      </Position13>
+      <Position14>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="831" Column="40" TopLine="812"/>
+      </Position14>
+      <Position15>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="833" Column="39" TopLine="814"/>
+      </Position15>
+      <Position16>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="834" Column="44" TopLine="815"/>
+      </Position16>
+      <Position17>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1083" Column="38" TopLine="1064"/>
+      </Position17>
+      <Position18>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1106" Column="37" TopLine="1087"/>
+      </Position18>
+      <Position19>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1189" Column="37" TopLine="1170"/>
+      </Position19>
+      <Position20>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1250" Column="56" TopLine="1240"/>
+      </Position20>
+      <Position21>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1259" Column="38" TopLine="1240"/>
+      </Position21>
+      <Position22>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1286" Column="30" TopLine="1267"/>
+      </Position22>
+      <Position23>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1325" Column="27" TopLine="1306"/>
+      </Position23>
+      <Position24>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1326" Column="41" TopLine="1307"/>
+      </Position24>
+      <Position25>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1338" Column="46" TopLine="1319"/>
+      </Position25>
+      <Position26>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1359" Column="35" TopLine="1340"/>
+      </Position26>
+      <Position27>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1362" Column="34" TopLine="1343"/>
+      </Position27>
+      <Position28>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1399" Column="38" TopLine="1380"/>
+      </Position28>
+      <Position29>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1407" Column="24" TopLine="1388"/>
+      </Position29>
+      <Position30>
+        <Filename Value="opentempus.pas"/>
+        <Caret Line="1429" Column="24" TopLine="1410"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="opentempus.exe"/>
+    </Target>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

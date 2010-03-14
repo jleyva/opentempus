@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Mantenimiento de la base de datos</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}db.php {dirpath} {dbpath} es</params>
+  <enabled>False</enabled>
+  <freq>0</freq>
+  <freqexec>false</freqexec>   
+  <summary>Extensión para realizar tareas de mantenimiento en la base de datos.</summary>
+</config>

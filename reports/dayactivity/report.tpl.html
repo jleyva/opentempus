@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{lang:report} {name}</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-latest.js"></script>	
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.pager.js"></script>
+<script type="text/javascript" id="js">
+    $.tablesorter.addParser({ 
+        // set a unique id 
+        id: 'ottime', 
+        is: function(s) { 
+            // return false so this parser is not auto detected 
+            return false; 
+        }, 
+        format: function(s) { 
+            // format your data for normalization 
+			if(s == '')
+				s = "0";
+			else
+				s = s.replace(" hours","*3600").replace(" mins","*60").replace(" min","*60").replace(" secs","").replace(/ /gi," + ");
+			return parseInt(eval(s));
+        }, 
+        // set type, either numeric or text 
+        type: 'numeric' 
+    }); 
+
+	$(document).ready(function() {
+		// call the tablesorter plugin
+		$("table").tablesorter({ 
+	            headers: { 
+	                2: { 
+	                    sorter:'ottime' 
+	                } 
+	            } 
+	        }).tablesorterPager({container: $("#pager")});
+	}); 
+</script>
+</head>
+<body>
+<div id="wrapper">
+  <div id="content">
+    <div id="header">
+      <div id="logo">
+        <h1>openTempus</h1>
+        <h4><a href="http://opentempus.org">opentempus.org</a></h4>
+      </div>
+
+    </div>
+    <div id="mainimg">
+      <h3>{lang:report} {name}</h3>
+	  <h4>{lang:from} {startdate}<br /> {lang:to} {enddate}</h2>
+    </div>
+    <div id="contentarea">
+      <div>
+	  
+            <a name="maintable">&nbsp;</a> 
+
+            {error}
+			<div>
+            {table_main} 
+			</div>
+			<div id="pager" class="pager">
+				<form>
+					<img src="images/first.png" class="first"/>
+					<img src="images/prev.png" class="prev"/>
+					<input type="text" class="pagedisplay"/>
+					<img src="images/next.png" class="next"/>
+					<img src="images/last.png" class="last"/>
+					<select class="pagesize">
+						<option selected="selected"  value="5">5</option>
+						<option value="10">10</option>
+						<option value="20">20</option>
+						<option value="30">30</option>
+						<option  value="40">40</option>
+					</select>
+				</form>
+			</div>			
+			
+            <p align="right">
+            <a href="{excelname}">{lang:downloadinexcel}</a><br />
+            </p>
+
+            <a name="maingraph">&nbsp;</a>
+            <p align="center">
+            {gpie}
+            </p>
+
+        <br />
+      </div>
+
+      <div id="bottombar">
+        <h2>{lang:info}</h2>
+        <p>
+		 {lang:creationdate}: {creationdate}
+		</p><br />
+		<p>        
+         {lang:summary}: {summary}          
+        </p><br />
+        <p>        
+         {lang:author}: {author}          
+        </p>
+        <p>        
+         {lang:version}: {version}          
+        </p><br />
+		<p>
+		 {lang:sqlquery}: {sql} 		 
+		</p><br /> 
+      </div>
+    </div>
+    <div id="bottom">
+      <div id="email"><a href="http://opentempus.org">{lang:createdwith} opentempus.org</a></div>
+       <div id="validtext">
+        <p>XHTML Template by </p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

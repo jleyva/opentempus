@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+ <name>Average Time in Applications</name>
+ <author>juan-leyva</author>
+ <version>1.0</version>
+ <bin>php</bin>
+ <params>{dirpath}report.php en {dirpath} {dbpath} {reporthtmldir} {starttime} {endtime}</params>
+ <output>avgtimeinapplications/index.html</output>
+ <summary>This report shows the average time you spend in each application.</summary>
+</config>

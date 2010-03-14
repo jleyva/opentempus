@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Google Docs</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}storage.php {dirpath} {dbpath} es</params>
+  <enabled>False</enabled>
+  <freq>300</freq>
+  <freqexec>True</freqexec>   
+  <summary>Extensión para almacenar los registros en Google Docs.</summary>
+</config>

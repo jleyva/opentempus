@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+ <name>Time by Application</name>
+ <author>juan-leyva</author>
+ <version>1.0</version>
+ <bin>php</bin>
+ <params>{dirpath}report.php en {dirpath} {dbpath} {reporthtmldir} {starttime} {endtime}</params>
+ <output>timebyapplication/index.html</output>
+ <summary>This report shows how much time you spend in each application during the period selected.</summary>
+</config>

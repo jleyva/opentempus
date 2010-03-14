@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Database manteinance</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}db.php {dirpath} {dbpath} en</params>
+  <enabled>False</enabled>
+  <freq>0</freq>
+  <freqexec>false</freqexec>   
+  <summary>Plugin for performing DB maintenance tasks.</summary>
+</config>

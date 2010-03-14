@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Google Docs</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}storage.php {dirpath} {dbpath} en</params>
+  <enabled>False</enabled>
+  <freq>300</freq>
+  <freqexec>True</freqexec>   
+  <summary>Plugin for storing data in a Google Docs spreadsheet.</summary>
+</config>

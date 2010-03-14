@@ -1,0 +1,412 @@
+#: opentempus:rsrunatstartup
+msgid "Run at startup"
+msgstr "Run at startup"
+
+#: opentempus:rsactivatelogg
+msgid "Activate Logging"
+msgstr "Activate Logging"
+
+#: opentempus:rsmainpreferen
+msgid "Main Preferencs"
+msgstr "Main Preferences"
+
+#: opentempus:rsgeneral
+msgid "General"
+msgstr "General"
+
+#: opentempus:rstracking
+msgid "Tracking"
+msgstr "Tracking"
+
+#: opentempus:rstrackingupda
+msgid "Tracking update frequency (seconds)"
+msgstr "Tracking update frequency (seconds)"
+
+#: opentempus:rstrackingintervalseco
+msgid "Tracking interval (seconds)"
+msgstr "Tracking interval (seconds)"
+
+#: opentempus:rsdonotsavetrackingsle
+msgid "Do not save trackings less than (seconds):"
+msgstr "Do not save trackings less than (seconds):"
+
+#: opentempus:rsminutesforidlestatus
+msgid "Minutes for idle status"
+msgstr "Minutes for idle status"
+
+#: opentempus:rsamountofsecondsbetwe
+msgid "Amount of seconds between notification and going idle"
+msgstr "Amount of seconds between notification and going idle"
+
+#: opentempus:rspreferences
+msgid "Preferences"
+msgstr "Preferences"
+
+#: opentempus:rsidle
+msgid "Idle"
+msgstr "Idle"
+
+#: opentempus:rssave
+msgid "Save"
+msgstr "Save"
+
+#: opentempus:rscancel
+msgid "Cancel"
+msgstr "Cancel"
+
+#: opentempus:rsprivacyandfilters
+msgid "Privacy and Filters"
+msgstr "Privacy and Filters"
+
+#: opentempus:rsprivacy
+msgid "Privacy"
+msgstr "Privacy"
+
+#: opentempus:rsdonotsaveprocessname
+msgid "Do not save process names"
+msgstr "Do not save process names"
+
+#: opentempus:rsdonotsavewindowstitl
+msgid "Do not save windows titles/captions"
+msgstr "Do not save windows titles/captions"
+
+#: opentempus:rsfilters
+msgid "Filters"
+msgstr "Filters"
+
+#: opentempus:rsonlytrackwindowswhos
+msgid "Only track windows whose title contains:"
+msgstr "Only track windows whose title contains:"
+
+#: opentempus:rsonlytrackprocesseswh
+msgid "Only track processes whose name contains:"
+msgstr "Only track processes whose name contains:"
+
+#: opentempus:rsdonottrackwindowswho
+msgid "Do not track windows whose title contains:"
+msgstr "Do not track windows whose title contains:"
+
+#: opentempus:rsdonottrackprocessesw
+msgid "Do not track processes whose name contains:"
+msgstr "Do not track processes whose name contains:"
+
+#: opentempus:rstasks
+msgid "Tasks"
+msgstr "Tasks"
+
+#: opentempus:rsnewtask
+msgid "New Task"
+msgstr "New Task"
+
+#: opentempus:rscategory
+msgid "Category"
+msgstr "Category"
+
+#: opentempus:rstask
+msgid "Task"
+msgstr "Task"
+
+#: opentempus:rsadd
+msgid "Add"
+msgstr "Add"
+
+#: opentempus:rsmanagetasks
+msgid "Manage Tasks"
+msgstr "Manage Tasks"
+
+#: opentempus:rsdelete
+msgid "Delete"
+msgstr "Delete"
+
+#: opentempus:rsedit
+msgid "Edit"
+msgstr "Edit"
+
+#: opentempus:rscategories
+msgid "Categories"
+msgstr "Categories"
+
+#: opentempus:rsnewcategory
+msgid "New Category"
+msgstr "New Category"
+
+#: opentempus:rsmanagecategories
+msgid "Manage Categories"
+msgstr "Manage Categories"
+
+#: opentempus:rsrules
+msgid "Rules"
+msgstr "Rules"
+
+#: opentempus:rsnewrule
+msgid "New Rule"
+msgstr "New Rule"
+
+#: opentempus:rsrulename
+msgid "Rule Name:"
+msgstr "Rule Name:"
+
+#: opentempus:rswindowtitlecontains
+msgid "Window Title contains:"
+msgstr "Window Title contains:"
+
+#: opentempus:rsprocessnamecontains
+msgid "Process name contains:"
+msgstr "Process name contains:"
+
+#: opentempus:rslinkto
+msgid "Link to:"
+msgstr "Link to:"
+
+#: opentempus:rsmanagerules
+msgid "Manage Rules"
+msgstr "Manage Rules"
+
+#: opentempus:rsapplythisruleto
+msgid "Apply this rule to:"
+msgstr "Apply this rule to:"
+
+#: opentempus:rsup
+msgid "Up"
+msgstr "Up"
+
+#: opentempus:rsdown
+msgid "Down"
+msgstr "Down"
+
+#: opentempus:rsapply
+msgid "Apply"
+msgstr "Apply"
+
+#: opentempus:rsreports
+msgid "Reports"
+msgstr "Reports"
+
+#: opentempus:rsenddate
+msgid "End Date:"
+msgstr "End Date:"
+
+#: opentempus:rsstartdate
+msgid "Start Date:"
+msgstr "Start Date:"
+
+#: opentempus:rsreportinfo
+msgid "Report info:"
+msgstr "Report info:"
+
+#: opentempus:rsrunreport
+msgid "Run Report"
+msgstr "Run Report"
+
+#: opentempus:rsplugins
+msgid "Plugins"
+msgstr "Plugins"
+
+#: opentempus:rspluginsfordatastorag
+msgid "Plugins for data storage, data import, backup and manteinance"
+msgstr "Plugins for data storage, data import, backup and manteinance"
+
+#: opentempus:rsplugininfo
+msgid "Plugin Info:"
+msgstr "Plugin Info:"
+
+#: opentempus:rsrunnow
+msgid "Run Now"
+msgstr "Run Now"
+
+#: opentempus:rsusepositivefilters
+msgid "Use Positive Filters "
+msgstr "Use Positive Filters "
+
+#: opentempus:rsusenegativefilters
+msgid "Use Negative Filters "
+msgstr "Use Negative Filters "
+
+#: opentempus:rsupdate
+msgid "Update"
+msgstr "Update"
+
+#: opentempus:rsopentempusidlestatus
+msgid "openTempus Idle status"
+msgstr "openTempus Idle status"
+
+#: opentempus:rsyouaregoingidle
+msgid "You are going to be Idle in "
+msgstr "You are going to be Idle in "
+
+#: opentempus:rsyouaregoingidlesecs
+msgid " seconds \\n your current task will be finished in openTempus"
+msgstr " seconds \\n your current task will be finished in openTempus"
+
+#: opentempus:rspleaseselecttask
+msgid "Please, select a Task"
+msgstr "Please, select a Task"
+
+#: opentempus:rspleaseselecttaskcat
+msgid "Please, select a Task not a category"
+msgstr "Please, select a Task not a category"
+
+#: opentempus:rsrulessaved
+msgid "Rule saved successfully"
+msgstr "Rule saved successfully"
+
+#: opentempus:rsruleupdated
+msgid "Rule updated successfully"
+msgstr "Rule updated successfully"
+
+#: opentempus:rspleasewritetask
+msgid "Please, write a task name"
+msgstr "Please, write a task name"
+
+#: opentempus:rspleaseselectcategory
+msgid "Please, select a category"
+msgstr "Please, select a category"
+
+#: opentempus:rsruleapplied
+msgid "Rule applied to "
+msgstr "Rule applied to "
+
+#: opentempus:rstimeentries
+msgid " time entries"
+msgstr " time entries"
+
+#: opentempus:rsareyousurewant
+msgid "Are you sure you want to delete this category?\\n Tasks will be move to Miscellaneous category"
+msgstr "Are you sure you want to delete this category?\\n Tasks will be move to Miscellaneous category"
+
+#: opentempus:rsareyousuredeltask
+msgid "Are you sure you want to delete this task?"
+msgstr "Are you sure you want to delete this task?"
+
+#: opentempus:rsthispluginisenabled
+msgid "This plugin is enabled and is executed every "
+msgstr "This plugin is enabled and is executed every "
+
+#: opentempus:rsthispluginisenabledsecs
+msgid " seconds. Are you sure you want run it now?"
+msgstr " seconds. Are you sure you want run it now?"
+
+#: opentempus:rsall
+msgid "All"
+msgstr "All"
+
+#: opentempus:rslast
+msgid "Last"
+msgstr "Last"
+
+#: opentempus:rsyear
+msgid "Year"
+msgstr "Year"
+
+#: opentempus:rstoday
+msgid "Today"
+msgstr "Today"
+
+#: opentempus:rsdays
+msgid "days"
+msgstr "days"
+
+#: opentempus:rsmonths
+msgid "months"
+msgstr "months"
+
+#: opentempus:rsname
+msgid "Name"
+msgstr "Name"
+
+#: opentempus:rsauthor
+msgid "Author"
+msgstr "Author"
+
+#: opentempus:rsversion
+msgid "Version"
+msgstr "Version"
+
+#: opentempus:rssummary
+msgid "Summary"
+msgstr "Summary"
+
+#: opentempus:rsfrequency
+msgid "Frequency"
+msgstr "Frequency"
+
+#: opentempus:rssecs
+msgid "secs"
+msgstr "secs"
+
+#: opentempus:rsthisplugindoesnot
+msgid "This plugin does not run as a scheluded process. It must be run using the \"Run now\" button."
+msgstr "This plugin does not run as a scheluded process. It must be run using the \"Run now\" button."
+
+#: opentempus:rsnormal
+msgid "Normal"
+msgstr "Normal"
+
+#: opentempus:rstrackingdisabled
+msgid "Tracking Disabled"
+msgstr "Tracking Disabled"
+
+#: opentempus:rsfiltersdisabled
+msgid "Filters Disabled"
+msgstr "Filters Disabled"
+
+#: opentempus:rsmode
+msgid "Mode"
+msgstr "Mode"
+
+#: opentempus:rsexit
+msgid "Exit"
+msgstr "Exit"
+
+#: opentempus:rscustomwindowtask
+msgid "Custom Window/Task"
+msgstr "Custom Window/Task"
+
+#: opentempus:rsabout
+msgid "About"
+msgstr "About"
+
+#: opentempus:rshelponline
+msgid "Help online"
+msgstr "Help online"
+
+#: opentempus:rslanguage
+msgid "Language"
+msgstr "Language"
+
+#: opentempus:rsdonottrackbetween
+msgid "Do not track between:"
+msgstr "Do not track between:"
+
+#: opentempus:rsdonottrackthesedays
+msgid "Do not track these days:"
+msgstr "Do not track these days:"
+
+#: opentempus:rsmon
+msgid "Mon"
+msgstr "Mon"
+
+#: opentempus:rstue
+msgid "Tue"
+msgstr "Tue"
+
+#: opentempus:rswed
+msgid "Wed"
+msgstr "Wed"
+
+#: opentempus:rsthu
+msgid "Thu"
+msgstr "Thu"
+
+#: opentempus:rsfri
+msgid "Fri"
+msgstr "Fri"
+
+#: opentempus:rssat
+msgid "Sat"
+msgstr "Sat"
+
+#: opentempus:rssun
+msgid "Sun"
+msgstr "Sun"
+

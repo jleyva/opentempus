@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <name>Tiempo medio en aplicaciones</name>
+ <author>juan-leyva</author>
+ <version>1.0</version>
+ <bin>php</bin>
+ <params>{dirpath}report.php es {dirpath} {dbpath} {reporthtmldir} {starttime} {endtime}</params>
+ <output>avgtimeinapplications/index.html</output>
+ <summary>Este informe muestra el tiempo medio que empleas en cada aplicación.</summary>
+</config>

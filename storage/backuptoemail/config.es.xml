@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <name>Copia de seguridad al email</name>
+  <author>juan-leyva</author>
+  <version>1.0</version>
+  <bin>php</bin>
+  <params>{dirpath}storage.php {dirpath} {dbpath} es</params>
+  <enabled>False</enabled>
+  <freq>3600</freq>
+  <freqexec>True</freqexec>   
+  <summary>Extensión para enviar por email una copia de seguridad de la base de datos. Por favor, añada sus datos de conexión en el archivo config.php en el directorio (openTempus_directorio_instalación/storage/backuptoemail/config.php)</summary>
+</config>

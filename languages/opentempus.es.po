@@ -1,0 +1,413 @@
+#: opentempus:rsrunatstartup
+msgid "Run at startup"
+msgstr "Ejecutar al inicio"
+
+#: opentempus:rsactivatelogg
+msgid "Activate Logging"
+msgstr "Activar registro de log"
+
+#: opentempus:rsmainpreferen
+msgid "Main Preferencs"
+msgstr "Opciones generales"
+
+#: opentempus:rsgeneral
+msgid "General"
+msgstr "General"
+
+#: opentempus:rstracking
+msgid "Tracking"
+msgstr "Registro de tiempo"
+
+#: opentempus:rstrackingupda
+msgid "Tracking update frequency (seconds)"
+msgstr "Tiempo de actualización del registro (segs)"
+
+#: opentempus:rstrackingintervalseco
+msgid "Tracking interval (seconds)"
+msgstr "Intervalo de registro (segs):"
+
+#: opentempus:rsdonotsavetrackingsle
+msgid "Do not save trackings less than (seconds):"
+msgstr "No guardar registros menores de (segs):"
+
+#: opentempus:rsminutesforidlestatus
+msgid "Minutes for idle status"
+msgstr "Minutos para pasar a estado inactivo"
+
+#: opentempus:rsamountofsecondsbetwe
+msgid "Amount of seconds between notification and going idle"
+msgstr "Tiempo de aviso antes de pasar a estado inactivo"
+
+#: opentempus:rspreferences
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: opentempus:rsidle
+msgid "Idle"
+msgstr "Tiempo inactivo"
+
+#: opentempus:rssave
+msgid "Save"
+msgstr "Guardar"
+
+#: opentempus:rscancel
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: opentempus:rsprivacyandfilters
+msgid "Privacy and Filters"
+msgstr "Privacidad y filtros"
+
+#: opentempus:rsprivacy
+msgid "Privacy"
+msgstr "Privacidad"
+
+#: opentempus:rsdonotsaveprocessname
+msgid "Do not save process names"
+msgstr "No guardar los nombres de los procesos/aplicaciones"
+
+#: opentempus:rsdonotsavewindowstitl
+msgid "Do not save windows titles/captions"
+msgstr "No guardar los títulos de las ventanas"
+
+#: opentempus:rsfilters
+msgid "Filters"
+msgstr "Filtros"
+
+#: opentempus:rsonlytrackwindowswhos
+msgid "Only track windows whose title contains:"
+msgstr "Sólo registrar ventanas cuyo título contiene:"
+
+#: opentempus:rsonlytrackprocesseswh
+msgid "Only track processes whose name contains:"
+msgstr "Sólo registrar procesos cuyo nombre contiene:"
+
+#: opentempus:rsdonottrackwindowswho
+msgid "Do not track windows whose title contains:"
+msgstr "No registrar ventanas cuyo títutlo contiene:"
+
+#: opentempus:rsdonottrackprocessesw
+msgid "Do not track processes whose name contains:"
+msgstr "No registrar procesos cuyo nombre contiene:"
+
+#: opentempus:rstasks
+msgid "Tasks"
+msgstr "Tareas"
+
+#: opentempus:rsnewtask
+msgid "New Task"
+msgstr "Nueva tarea"
+
+#: opentempus:rscategory
+msgid "Category"
+msgstr "Categoría"
+
+#: opentempus:rstask
+msgid "Task"
+msgstr "Tarea"
+
+#: opentempus:rsadd
+msgid "Add"
+msgstr "Añadir"
+
+#: opentempus:rsmanagetasks
+msgid "Manage Tasks"
+msgstr "Administrar tareas"
+
+#: opentempus:rsdelete
+msgid "Delete"
+msgstr "Eliminar"
+
+#: opentempus:rsedit
+msgid "Edit"
+msgstr "Editar"
+
+#: opentempus:rscategories
+msgid "Categories"
+msgstr "Categorías"
+
+#: opentempus:rsnewcategory
+msgid "New Category"
+msgstr "Nueva categoría"
+
+#: opentempus:rsmanagecategories
+msgid "Manage Categories"
+msgstr "Administrar categorías"
+
+#: opentempus:rsrules
+msgid "Rules"
+msgstr "Reglas"
+
+#: opentempus:rsnewrule
+msgid "New Rule"
+msgstr "Nueva regla"
+
+#: opentempus:rsrulename
+msgid "Rule Name:"
+msgstr "Nombre:"
+
+#: opentempus:rswindowtitlecontains
+msgid "Window Title contains:"
+msgstr "Título de la ventana contiene:"
+
+#: opentempus:rsprocessnamecontains
+msgid "Process name contains:"
+msgstr "Nombre del proceso contiene:"
+
+#: opentempus:rslinkto
+msgid "Link to:"
+msgstr "Asociar a:"
+
+#: opentempus:rsmanagerules
+msgid "Manage Rules"
+msgstr "Administrar reglas"
+
+#: opentempus:rsapplythisruleto
+msgid "Apply this rule to:"
+msgstr "Aplicar esta regla a:"
+
+#: opentempus:rsup
+msgid "Up"
+msgstr "Subir"
+
+#: opentempus:rsdown
+msgid "Down"
+msgstr "Bajar"
+
+#: opentempus:rsapply
+msgid "Apply"
+msgstr "Aplicar"
+
+#: opentempus:rsreports
+msgid "Reports"
+msgstr "Informes"
+
+#: opentempus:rsenddate
+msgid "End Date:"
+msgstr "Fecha de fin:"
+
+#: opentempus:rsstartdate
+msgid "Start Date:"
+msgstr "Fecha de inicio:"
+
+#: opentempus:rsreportinfo
+msgid "Report info:"
+msgstr "Descripción del informe:"
+
+#: opentempus:rsrunreport
+msgid "Run Report"
+msgstr "Ejecutar"
+
+#: opentempus:rsplugins
+msgid "Plugins"
+msgstr "Extensiones"
+
+#: opentempus:rspluginsfordatastorag
+msgid "Plugins for data storage, data import, backup and manteinance"
+msgstr "Extensiones para la gestión de datos."
+
+#: opentempus:rsplugininfo
+msgid "Plugin Info:"
+msgstr "Descripción de la extensión:"
+
+#: opentempus:rsrunnow
+msgid "Run Now"
+msgstr "Ejecutar"
+
+
+#: opentempus:rsusepositivefilters
+msgid "Use Positive Filters "
+msgstr "Utilizar filtros positivos"
+
+#: opentempus:rsusenegativefilters
+msgid "Use Negative Filters "
+msgstr "Utilizar filtros negativos"
+
+#: opentempus:rsupdate
+msgid "Update"
+msgstr "Actualizar"
+
+#: opentempus:rsopentempusidlestatus
+msgid "openTempus Idle status"
+msgstr "openTempus detecta estado inactivo "
+
+#: opentempus:rsyouaregoingidle
+msgid "You are going to be Idle in "
+msgstr "Pasarás a estar inactivo en"
+
+#: opentempus:rsyouaregoingidlesecs
+msgid " seconds \\n your current task will be finished in openTempus"
+msgstr " segundos \\n openTempus finalizará la tarea actual"
+
+#: opentempus:rspleaseselecttask
+msgid "Please, select a Task"
+msgstr "Debe seleccionar una Tarea"
+
+#: opentempus:rspleaseselecttaskcat
+msgid "Please, select a Task not a category"
+msgstr "Debe seleccionar una Tarea, no una Categoría"
+
+#: opentempus:rsrulessaved
+msgid "Rule saved successfully"
+msgstr "La Regla se ha guardado correctamente"
+
+#: opentempus:rsruleupdated
+msgid "Rule updated successfully"
+msgstr "La Regla se ha actualizado correctamente"
+
+#: opentempus:rspleasewritetask
+msgid "Please, write a task name"
+msgstr "Debe escribir un nombre para la Tarea"
+
+#: opentempus:rspleaseselectcategory
+msgid "Please, select a category"
+msgstr "Debe seleccionar una Categoría"
+
+#: opentempus:rsruleapplied
+msgid "Rule applied to "
+msgstr "La Regla se ha aplicado a "
+
+#: opentempus:rstimeentries
+msgid " time entries"
+msgstr " entradas en la base de datos"
+
+#: opentempus:rsareyousurewant
+msgid "Are you sure you want to delete this category?\\n Tasks will be move to Miscellaneous category"
+msgstr "¿Confirma que desea borrar la categoría?\\n Las Tareas pasarán a la categoría Miscelánea"
+
+#: opentempus:rsareyousuredeltask
+msgid "Are you sure you want to delete this task?"
+msgstr "¿Confirma que desea borrar la tarea?"
+
+#: opentempus:rsthispluginisenabled
+msgid "This plugin is enabled and is executed every "
+msgstr "La extensión está habilitada y se ejecutará cada "
+
+#: opentempus:rsthispluginisenabledsecs
+msgid " seconds. Are you sure you want run it now?"
+msgstr " segundos. ¿Confirma que desea ejecutarla?"
+
+#: opentempus:rsall
+msgid "All"
+msgstr "Todos"
+
+#: opentempus:rslast
+msgid "Last"
+msgstr "Último"
+
+#: opentempus:rsyear
+msgid "Year"
+msgstr "Año"
+
+#: opentempus:rstoday
+msgid "Today"
+msgstr "Hoy"
+
+#: opentempus:rsdays
+msgid "days"
+msgstr "días"
+
+#: opentempus:rsmonths
+msgid "months"
+msgstr "meses"
+
+#: opentempus:rsname
+msgid "Name"
+msgstr "Nombre"
+
+#: opentempus:rsauthor
+msgid "Author"
+msgstr "Autor"
+
+#: opentempus:rsversion
+msgid "Version"
+msgstr "Versión"
+
+#: opentempus:rssummary
+msgid "Summary"
+msgstr "Descripción"
+
+#: opentempus:rsfrequency
+msgid "Frequency"
+msgstr "Frecuencia"
+
+#: opentempus:rssecs
+msgid "secs"
+msgstr "segs"
+
+#: opentempus:rsthisplugindoesnot
+msgid "This plugin does not run as a scheluded process. It must be run using the \"Run now\" button."
+msgstr "Esta extensión no se ejecuta como un proceso periódico. Se debe ejecutar pulsando el botón Ejecutar"
+
+#: opentempus:rsnormal
+msgid "Normal"
+msgstr "Normal"
+
+#: opentempus:rstrackingdisabled
+msgid "Tracking Disabled"
+msgstr "Registro deshabilitado"
+
+#: opentempus:rsfiltersdisabled
+msgid "Filters Disabled"
+msgstr "Filtros deshabilitados"
+
+#: opentempus:rsmode
+msgid "Mode"
+msgstr "Modo"
+
+#: opentempus:rsexit
+msgid "Exit"
+msgstr "Salir"
+
+#: opentempus:rscustomwindowtask
+msgid "Custom Window/Task"
+msgstr "Tarea propia"
+
+#: opentempus:rsabout
+msgid "About"
+msgstr "Sobre"
+
+#: opentempus:rshelponline
+msgid "Help online"
+msgstr "Ayuda en línea"
+
+#: opentempus:rslanguage
+msgid "Language"
+msgstr "Idioma"
+
+#: opentempus:rsdonottrackbetween
+msgid "Do not track between:"
+msgstr "No registrar entre:"
+
+#: opentempus:rsdonottrackthesedays
+msgid "Do not track these days:"
+msgstr "No registrar estos días:"
+
+#: opentempus:rsmon
+msgid "Mon"
+msgstr "L"
+
+#: opentempus:rstue
+msgid "Tue"
+msgstr "M"
+
+#: opentempus:rswed
+msgid "Wed"
+msgstr "X"
+
+#: opentempus:rsthu
+msgid "Thu"
+msgstr "J"
+
+#: opentempus:rsfri
+msgid "Fri"
+msgstr "V"
+
+#: opentempus:rssat
+msgid "Sat"
+msgstr "S"
+
+#: opentempus:rssun
+msgid "Sun"
+msgstr "D"
+
